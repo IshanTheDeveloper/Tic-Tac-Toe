@@ -47,7 +47,7 @@ const checkWinner = () => {
 
 const showWinner = (winner) => {
   msg.innerHTML = `Congratulations, Winner is ${winner}`;
-  msg.style.opacity = "1
+  msg.style.opacity = "1";
   disableBoxes();
 };
 
